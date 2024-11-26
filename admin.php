@@ -29,6 +29,8 @@ if (isset($_GET['delete'])) {
 $cakes = $pdo->query("SELECT * FROM cakes")->fetchAll();
 ?>
 
+<link rel="stylesheet" href="assets/admin.css">
+
 <h1>Administração de Bolos</h1>
 
 <form method="post">
